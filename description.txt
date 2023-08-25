@@ -1,0 +1,34 @@
+Library Management System
+This repository contains a complete implementation of a Library Management System in C++. 
+The system is designed to manage a collection of books and users in a library, providing functionalities such as adding books, searching by book name prefix, tracking borrowed books, and user management.
+
+Features
+Book Management: 
+                Users can add books to the library's collection by providing book ID, name, and quantity. 
+                The system keeps track of the total number of times a book has been borrowed.
+
+Book Search: 
+            The system allows users to search for books by entering a prefix of the book name. 
+            Matching books are displayed to the user.
+
+Borrower Information: 
+                    Users can inquire about the individuals who have borrowed a particular book by providing the book's name. 
+                    The system provides a list of names of users who have borrowed the book.
+
+Library Printing: 
+                Users can print the library's collection of books either by ID or by name. 
+                The printed list includes book details such as ID, name, total quantity, and total borrowed count.
+
+User Management: 
+                Users can be added to the system with their usernames and national IDs. 
+                The system ensures that valid national IDs are used and maintains a list of borrowed books for each user.
+
+Borrowing and Returning:
+                        Users can borrow and return books. The system updates book quantities, borrowed counts, and maintains records of who borrowed which books.
+
+Interactive Menu: 
+                The system provides an interactive menu for users to easily navigate and perform various operations.
+
+Usage
+To run the Library Management System, simply compile the provided C++ code and execute the resulting executable. 
+The program will present an interactive menu where users can choose from a range of operations.
